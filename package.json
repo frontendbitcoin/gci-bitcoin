@@ -4,6 +4,7 @@
     "dev": "next",
     "build": "next build",
     "lint": "next lint",
+    "format": "prettier --write .",
     "start": "next start",
     "typecheck": "tsc"
   },
