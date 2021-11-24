@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navigation from "components/organisms/navigation";
+import Footer from "components/organisms/footer";
 import Container from "../old-components/container";
 import MoreStories from "../old-components/more-stories";
 import HeroPost from "../old-components/hero-post";
@@ -22,6 +23,7 @@ const Index = ({ allPosts }: Props) => {
         <title>Next.js Blog Example with {CMS_NAME}</title>
       </Head>
       <Navigation />
+      <Footer />
       <Container>
         <Intro />
         {heroPost && (
