@@ -3,10 +3,11 @@ import formatThousands from "format-thousands";
 import Icon from "components/atoms/icon";
 import InputMoney from "components/atoms/input-money";
 import BtcToggle from "components/atoms/btc-toggle";
+import CalculatorOutputs from "components/molecules/calculator-outputs";
 import { CalculatorIcon } from "@heroicons/react/outline";
 
 const annualisedCleanEnergyBTCCalculator = (value: string) =>
-  String((Number(value) * 0.12).toFixed(2));
+  String((Number(value) * 0.02).toFixed(0));
 
 const Calculator = () => {
   const DEFAULT_USD_VALUE = "1000";
@@ -58,9 +59,18 @@ const Calculator = () => {
             <div className="mt-8">
               <InputMoney value={usdValueBTC} onChange={onValueChange} />
             </div>
-            <div className="mt-4 mb-8">
-              <BtcToggle />
-            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-8 flex flex-col items-center">
+        <div className="max-w-4xl w-full">
+          <CalculatorOutputs value={usdValueAnnualGCI} />
+        </div>
+      </div>
+      <div className="flex flex-col items-center">
+        <div className="max-w-4xl w-full text-left">
+          <div className="mt-4 mb-8">
+            <BtcToggle />
           </div>
         </div>
       </div>
