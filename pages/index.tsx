@@ -4,6 +4,7 @@ import Hero from "components/organisms/hero";
 import HowItWorks from "components/organisms/how-it-works";
 import Calculator from "components/organisms/calculator";
 import Comparison from "components/organisms/comparison";
+import WhitePaper from "components/organisms/whitepaper";
 import Container from "../old-components/container";
 import MoreStories from "../old-components/more-stories";
 import HeroPost from "../old-components/hero-post";
@@ -27,6 +28,7 @@ const Index = ({ allPosts }: Props) => {
       <HowItWorks />
       <Comparison />
       <Calculator />
+      <WhitePaper />
       <Container>
         <Intro />
         {heroPost && (
