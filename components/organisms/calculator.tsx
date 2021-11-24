@@ -2,6 +2,7 @@ import { useState } from "react";
 import formatThousands from "format-thousands";
 import Icon from "components/atoms/icon";
 import InputMoney from "components/atoms/input-money";
+import BtcToggle from "components/atoms/btc-toggle";
 import { CalculatorIcon } from "@heroicons/react/outline";
 
 const annualisedCleanEnergyBTCCalculator = (value: string) =>
@@ -18,7 +19,6 @@ const Calculator = () => {
 
   const onValueChange = (e: any) => {
     const value = e.target.rawValue;
-    console.log("wayo", { value });
     setUsdValueBTC(value);
     setUsdValueAnnualGCI(annualisedCleanEnergyBTCCalculator(value));
   };
@@ -53,8 +53,15 @@ const Calculator = () => {
             </p>
           </div>
         </div>
-        <div className="mt-8 flex flex-1 justify-center ">
-          <InputMoney value={usdValueBTC} onChange={onValueChange} />
+        <div className="flex flex-col items-center">
+          <div className="max-w-4xl w-full text-left">
+            <div className="mt-8">
+              <InputMoney value={usdValueBTC} onChange={onValueChange} />
+            </div>
+            <div className="mt-4 mb-8">
+              <BtcToggle />
+            </div>
+          </div>
         </div>
       </div>
     </div>

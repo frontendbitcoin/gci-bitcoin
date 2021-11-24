@@ -6,11 +6,9 @@ const Hero = () => (
     <div className="relative pt-6 pb-16 sm:pb-24">
       <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
         <div className="text-center">
-          <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span className="block xl:inline">
-              Hold carbon neutral Bitcoin with
-            </span>{" "}
-            <span className="block text-green-600">
+          <h1 className="text-4xl  font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+            <span className="inline">Hold carbon neutral Bitcoin with</span>{" "}
+            <span className="inline xl:block xl:mt-2 text-green-600">
               clean energy Bitcoin mining{" "}
             </span>
           </h1>
