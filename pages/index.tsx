@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Navigation from "components/organisms/navigation";
-import Footer from "components/organisms/footer";
+import Layout from "components/layouts/layout";
 import Container from "../old-components/container";
 import MoreStories from "../old-components/more-stories";
 import HeroPost from "../old-components/hero-post";
 import Intro from "../old-components/intro";
-import Layout from "../old-components/layout";
 import { getAllPosts } from "../lib/api";
-import { CMS_NAME } from "../lib/constants";
 import Post from "../types/post";
 
 type Props = {
@@ -20,10 +17,8 @@ const Index = ({ allPosts }: Props) => {
   return (
     <Layout>
       <Head>
-        <title>Next.js Blog Example with {CMS_NAME}</title>
+        <title>GCI Bitcoin | Hold Carbon Neutral BTC</title>
       </Head>
-      <Navigation />
-      <Footer />
       <Container>
         <Intro />
         {heroPost && (
