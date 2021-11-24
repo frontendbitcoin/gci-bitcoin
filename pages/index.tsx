@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "components/layouts/layout";
 import Hero from "components/organisms/hero";
+import HowItWorks from "components/organisms/how-it-works";
 import Container from "../old-components/container";
 import MoreStories from "../old-components/more-stories";
 import HeroPost from "../old-components/hero-post";
@@ -21,6 +22,7 @@ const Index = ({ allPosts }: Props) => {
         <title>GCI Bitcoin | Hold Carbon Neutral BTC</title>
       </Head>
       <Hero />
+      <HowItWorks />
       <Container>
         <Intro />
         {heroPost && (
