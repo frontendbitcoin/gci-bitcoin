@@ -1,3 +1,3 @@
 export const EXAMPLE_PATH = "blog-starter-typescript";
 export const CMS_NAME = "Markdown";
-export const HOME_OG_IMAGE_URL = "assets/ogImage/home-og-gci-bitcoin.jpeg";
+export const HOME_OG_IMAGE_URL = "assets/home/home-hero.jpeg";
