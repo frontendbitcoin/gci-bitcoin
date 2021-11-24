@@ -3,7 +3,7 @@ import ComparisonTable from "components/molecules/comparison-table";
 import { LightningBoltIcon } from "@heroicons/react/outline";
 
 const Comparison = () => (
-  <div className="relative overflow-hidden">
+  <div className="mt-24 relative overflow-hidden">
     <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
       <div className="flex items-center flex-col">
         <Icon>
