@@ -1689,6 +1689,11 @@ foreach@^2.0.5:
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
   integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
 
+format-thousands@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/format-thousands/-/format-thousands-2.0.0.tgz#d67abcc974e9a2ad26196ac05b7fc037ba9df752"
+  integrity sha512-fIEYG0M21GSf/WcCkIv/Y/5ofyuCHFjgypIwd2YaZqBQG6GgOe+4RvMaqJepNJieAfC45aDZmjDUoMtbjkropQ==
+
 fraction.js@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.1.tgz#ac4e520473dae67012d618aab91eda09bcb400ff"
