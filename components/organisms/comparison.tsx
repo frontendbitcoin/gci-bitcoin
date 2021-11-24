@@ -12,12 +12,12 @@ const Comparison = () => (
             aria-hidden="true"
           />
         </Icon>
-        <h2 className="mt-6 text-base font-semibold tracking-wider text-green-600 uppercase">
+        <span className="mt-6 text-base font-semibold tracking-wider text-green-600 uppercase">
           Comparison
-        </h2>
-        <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+        </span>
+        <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
           GCI Bitcoin vs Alternatives
-        </p>
+        </h2>
       </div>
       <div className="mt-12 ">
         <div className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
