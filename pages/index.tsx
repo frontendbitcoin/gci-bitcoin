@@ -1,9 +1,10 @@
 import Head from "next/head";
-import Container from "../components/container";
-import MoreStories from "../components/more-stories";
-import HeroPost from "../components/hero-post";
-import Intro from "../components/intro";
-import Layout from "../components/layout";
+import Navigation from "components/organisms/navigation";
+import Container from "../old-components/container";
+import MoreStories from "../old-components/more-stories";
+import HeroPost from "../old-components/hero-post";
+import Intro from "../old-components/intro";
+import Layout from "../old-components/layout";
 import { getAllPosts } from "../lib/api";
 import { CMS_NAME } from "../lib/constants";
 import Post from "../types/post";
@@ -20,6 +21,7 @@ const Index = ({ allPosts }: Props) => {
       <Head>
         <title>Next.js Blog Example with {CMS_NAME}</title>
       </Head>
+      <Navigation />
       <Container>
         <Intro />
         {heroPost && (
