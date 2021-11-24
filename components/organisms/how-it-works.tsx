@@ -1,6 +1,6 @@
-import ComparisonTable from "components/molecules/comparison-table";
 /* This example requires Tailwind CSS v2.0+ */
-import { LightBulbIcon, LightningBoltIcon } from "@heroicons/react/outline";
+import Icon from "components/atoms/icon";
+import { LightBulbIcon } from "@heroicons/react/outline";
 
 const HowItWorks = () => (
   <div className="relative bg-white pt-16 pb-32 overflow-hidden">
@@ -9,12 +9,12 @@ const HowItWorks = () => (
         <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
           <div>
             <div>
-              <span className="h-12 w-12 rounded-md flex items-center justify-center bg-green-600">
+              <Icon>
                 <LightBulbIcon
                   className="h-6 w-6 text-white"
                   aria-hidden="true"
                 />
-              </span>
+              </Icon>
             </div>
             <div className="mt-6">
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -31,7 +31,7 @@ const HowItWorks = () => (
               </p>
               <p className="mt-4 text-lg text-gray-500">
                 This financial instrument is called a Green Co-Investment
-                Instrument (GCI)
+                Instrument (GCI).
               </p>
             </div>
           </div>
