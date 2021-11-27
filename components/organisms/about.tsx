@@ -1,19 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
 const people = [
   {
     name: "Troy Cross",
@@ -27,14 +11,13 @@ const people = [
     role: "Whitepaper Author",
     imageUrl: "/assets/home/andrew-bailey.jpg",
     bio: "Andrew M Bailey is the co-author of the GCI Bitcoin whitepaper and Associate Professor at Yale-NUS College, where he teaches classes on money, philosophy, politics.",
-    twitterUrl: "https://twitter.com/thetrocro",
+    twitterUrl: "https://twitter.com/resistancemoney",
   },
-  // More people...
 ];
 
 const AboutUs = () => (
   <div className="bg-white">
-    <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+    <div className="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-12">
       <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
         <div className="space-y-5 sm:space-y-4">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -46,8 +29,8 @@ const AboutUs = () => (
             never sell our own tokens.
           </p>
           <p className="text-lg text-gray-500">
-            Our mission is to accelerate the adoption of Bitcoin and clean
-            energy to reduce carbon emissions.
+            Our mission is to accelerate the adoption of clean energy with
+            Bitcoin.
           </p>
         </div>
         <div className="lg:col-span-2">

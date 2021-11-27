@@ -6,6 +6,7 @@ import Calculator from "components/organisms/calculator";
 import Comparison from "components/organisms/comparison";
 import WhitePaper from "components/organisms/whitepaper";
 import AboutUs from "components/organisms/about";
+import FAQS from "components/organisms/faqs";
 
 const Index = () => (
   <Layout>
@@ -18,6 +19,7 @@ const Index = () => (
     <Comparison />
     <Calculator />
     <AboutUs />
+    <FAQS />
   </Layout>
 );
 

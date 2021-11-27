@@ -1,21 +1,9 @@
-/* This example requires Tailwind CSS v2.0+ */
-import Icon from "components/atoms/icon";
-import { LightBulbIcon } from "@heroicons/react/outline";
-
 const HowItWorks = () => (
   <div className=" relative bg-white pt-16 overflow-hidden">
     <div className="relative">
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
           <div>
-            <div>
-              <Icon>
-                <LightBulbIcon
-                  className="h-6 w-6 text-white"
-                  aria-hidden="true"
-                />
-              </Icon>
-            </div>
             <div className="mt-6">
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                 How It Works
