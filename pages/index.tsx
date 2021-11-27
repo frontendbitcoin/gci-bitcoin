@@ -5,6 +5,7 @@ import HowItWorks from "components/organisms/how-it-works";
 import Calculator from "components/organisms/calculator";
 import Comparison from "components/organisms/comparison";
 import WhitePaper from "components/organisms/whitepaper";
+import AboutUs from "components/organisms/about";
 
 const Index = () => (
   <Layout>
@@ -16,6 +17,7 @@ const Index = () => (
     <WhitePaper />
     <Comparison />
     <Calculator />
+    <AboutUs />
   </Layout>
 );
 
