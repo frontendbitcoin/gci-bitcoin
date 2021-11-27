@@ -40,12 +40,12 @@ const AboutUs = () => (
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
             About Us
           </h2>
-          <p className="text-xl text-gray-500">
+          <p className="text-lg text-gray-500">
             GCI Bitcoin is an independent platform that compares all GCI Bitcoin
             instruments. We do not accept money, donations or tips. We will
             never sell our own tokens.
           </p>
-          <p className="text-xl text-gray-500">
+          <p className="text-lg text-gray-500">
             Our mission is to accelerate the adoption of Bitcoin and clean
             energy to reduce carbon emissions.
           </p>
@@ -68,7 +68,7 @@ const AboutUs = () => (
                         <h3>{person.name}</h3>
                         <p className="text-green-600">{person.role}</p>
                       </div>
-                      <div className="text-lg">
+                      <div className="text-base">
                         <p className="text-gray-500">{person.bio}</p>
                       </div>
                       <ul className="flex space-x-5">
